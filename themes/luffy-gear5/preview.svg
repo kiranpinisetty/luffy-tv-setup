@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Luffy Gear 5 theme layout preview</title>
+  <desc id="desc">Original abstract cloud-and-sun artwork with a dark TV launcher layout, clock, date, and placeholder app dock.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080A10"/>
+      <stop offset=".58" stop-color="#101525"/>
+      <stop offset="1" stop-color="#26131A"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFF8D6" stop-opacity=".96"/>
+      <stop offset=".4" stop-color="#E9B94F" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#C13E3E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".08"/>
+    </linearGradient>
+    <filter id="blur64"><feGaussianBlur stdDeviation="64"/></filter>
+    <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity=".5"/></filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="1500" cy="320" r="330" fill="url(#sun)" filter="url(#blur18)"/>
+  <path d="M1110 420 C1270 260 1390 520 1530 360 C1660 210 1780 360 1940 210 L1940 650 C1750 560 1580 650 1430 540 C1300 445 1200 580 1050 520 Z" fill="#F8F5E7" opacity=".12" filter="url(#blur64)"/>
+  <path d="M1060 470 C1200 350 1310 560 1450 420 C1580 290 1730 440 1920 290" fill="none" stroke="#FFFDF0" stroke-opacity=".42" stroke-width="22" stroke-linecap="round"/>
+  <path d="M1080 500 C1230 390 1310 610 1470 475 C1590 375 1710 480 1900 370" fill="none" stroke="#D94848" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1230 645 C1430 565 1560 710 1770 610" fill="none" stroke="#E4B84F" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+
+  <g fill="#FFFFFF">
+    <text x="92" y="106" font-family="Arial, sans-serif" font-size="24" letter-spacing="3" opacity=".72">LUFFY / GEAR 5 — PREVIEW MOCKUP</text>
+    <text x="92" y="164" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" opacity=".58">ORIGINAL ABSTRACT ARTWORK · NOT A FINAL WALLPAPER</text>
+    <text x="1645" y="112" font-family="Arial, sans-serif" font-size="54" text-anchor="end" font-weight="600">21:37</text>
+    <text x="1645" y="151" font-family="Arial, sans-serif" font-size="20" text-anchor="end" letter-spacing="1.5" opacity=".95">WEDNESDAY · 29 OCTOBER 2026</text>
+  </g>
+  <line x1="1490" y1="175" x2="1645" y2="175" stroke="#FFFFFF" stroke-width="2" opacity=".75"/>
+
+  <g transform="translate(1130 250)">
+    <circle cx="210" cy="210" r="190" fill="none" stroke="#FFF8D6" stroke-width="10" opacity=".62"/>
+    <circle cx="210" cy="210" r="145" fill="none" stroke="#D94848" stroke-width="4" stroke-dasharray="14 22" opacity=".9"/>
+    <path d="M210 50 C262 115 302 145 370 160 C303 180 266 218 210 370 C155 218 116 180 50 160 C116 145 158 115 210 50Z" fill="#FFF8D6" opacity=".34"/>
+    <path d="M115 315 C150 260 170 255 210 315 C250 255 273 260 305 315" fill="none" stroke="#FFFFFF" stroke-width="10" opacity=".75" stroke-linecap="round"/>
+  </g>
+
+  <rect x="76" y="800" width="1768" height="204" rx="34" fill="url(#dock)" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="2" filter="url(#shadow)"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(110 832)">
+      <rect width="240" height="140" rx="24" fill="#FFFFFF" fill-opacity=".08" stroke="#FFF8D6" stroke-width="4"/>
+      <circle cx="130" cy="57" r="32" fill="#FFF8D6" fill-opacity=".85"/>
+      <path d="M115 57h30M130 42v30" stroke="#7C202A" stroke-width="6" stroke-linecap="round"/>
+      <text x="120" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 1</text>
+      <text x="120" y="139" fill="#FFF8D6" font-size="13" letter-spacing="1.5">PLACEHOLDER</text>
+    </g>
+    <g transform="translate(410 832)">
+      <rect width="240" height="140" rx="24" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+      <circle cx="130" cy="57" r="32" fill="#FFFFFF" fill-opacity=".72"/>
+      <path d="M116 57h28M130 43v28" stroke="#273044" stroke-width="6" stroke-linecap="round"/>
+      <text x="120" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 2</text>
+      <text x="120" y="139" fill="#FFFFFF" opacity=".65" font-size="13" letter-spacing="1.5">PLACEHOLDER</text>
+    </g>
+    <g transform="translate(710 832)">
+      <rect width="240" height="140" rx="24" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+      <circle cx="130" cy="57" r="32" fill="#FFFFFF" fill-opacity=".72"/>
+      <path d="M116 57h28M130 43v28" stroke="#273044" stroke-width="6" stroke-linecap="round"/>
+      <text x="120" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 3</text>
+      <text x="120" y="139" fill="#FFFFFF" opacity=".65" font-size="13" letter-spacing="1.5">PLACEHOLDER</text>
+    </g>
+    <g transform="translate(1010 832)">
+      <rect width="240" height="140" rx="24" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+      <circle cx="130" cy="57" r="32" fill="#FFFFFF" fill-opacity=".72"/>
+      <path d="M116 57h28M130 43v28" stroke="#273044" stroke-width="6" stroke-linecap="round"/>
+      <text x="120" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 4</text>
+      <text x="120" y="139" fill="#FFFFFF" opacity=".65" font-size="13" letter-spacing="1.5">PLACEHOLDER</text>
+    </g>
+    <g transform="translate(1310 832)">
+      <rect width="240" height="140" rx="24" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+      <circle cx="130" cy="57" r="32" fill="#FFFFFF" fill-opacity=".72"/>
+      <path d="M116 57h28M130 43v28" stroke="#273044" stroke-width="6" stroke-linecap="round"/>
+      <text x="120" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 5</text>
+      <text x="120" y="139" fill="#FFFFFF" opacity=".65" font-size="13" letter-spacing="1.5">UNSELECTED</text>
+    </g>
+    <g transform="translate(1610 832)">
+      <rect width="160" height="140" rx="24" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+      <circle cx="80" cy="57" r="32" fill="#FFFFFF" fill-opacity=".72"/>
+      <path d="M66 57h28M80 43v28" stroke="#273044" stroke-width="6" stroke-linecap="round"/>
+      <text x="80" y="116" fill="#FFFFFF" font-size="20" letter-spacing="2">APP 6</text>
+      <text x="80" y="139" fill="#FFFFFF" opacity=".65" font-size="13" letter-spacing="1.5">UNSELECTED</text>
+    </g>
+  </g>
+  <text x="960" y="1040" fill="#FFFFFF" opacity=".55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" letter-spacing="2">FOCUS SAMPLE · WHITE LIFT + RESTRAINED GOLD EDGE · NO APP PACKAGE ASSIGNED</text>
+</svg>
