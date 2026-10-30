@@ -27,8 +27,9 @@ licensed artwork.
 - Six columns and no visible grid row below the dock, keeping the home screen
   spacious on a 65-inch display.
 - Straight, non-overshooting focus movement.
-- Existing basic and advanced launcher effects enabled, with ambient background
-  glow and per-app glow disabled to keep motion and color restrained.
+- Existing basic and advanced launcher effects enabled, with the documented
+  ambient background glow and per-app glow enabled for a restrained focused
+  app emphasis.
 - Date on its own line and full-white clock header for readability.
 - No idle clock takeover and no greeting, reducing startup and visual clutter.
 
