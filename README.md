@@ -23,6 +23,36 @@
   <a href="docs/PRESS.md"><img src="docs/card.jpg" alt="359 TV models · 97 brands · 30 languages · 532 KB launcher. Featured in TechCrunch, TechRadar, Tom's Guide, Mashable, Android Authority, XDA, FlatpanelsHD, It's FOSS, Phandroid, GIGAZINE, Xataka, WinFuture, Frandroid, Macitynet, Techaeris, TechPP and 298 more: 314 articles from 44 countries. Before: stock Google TV home with a sponsored ad. After: the Clean Your TV launcher." width="800"></a>
 </p>
 
+## Luffy Gear 5 project guide
+
+This workspace packages a Luffy Gear 5 visual theme for the existing
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) Android TV launcher.
+The theme uses CleanYourTV's supported `config.json` schema and local
+wallpaper assets; it does not modify launcher Java code.
+
+The current device-tested target is a Xiaomi `MiTV-AXSO0` running Android 9
+(SDK 28). The project has a six-column Luffy dock with verified YouTube,
+Netflix, Prime Video, and JioHotstar packages. The fifth and sixth dock slots
+are intentionally empty. The current device state, including what is and is
+not deployed, is recorded in [PROJECT-STATUS.md](PROJECT-STATUS.md).
+
+### Project documentation
+
+- [CLAUDE.md](CLAUDE.md): agent rules and authoritative paths.
+- [TV-SETUP.md](TV-SETUP.md): verified ADB, installation, theme, and diagnosis commands.
+- [REVERSIBILITY.md](REVERSIBILITY.md): device changes and rollback commands.
+- [DEVELOPMENT.md](DEVELOPMENT.md): theme editing, validation, packaging, and APK workflow.
+- [AI-PROMPTS.md](AI-PROMPTS.md): reusable prompts for future agents.
+- [ROADMAP.md](ROADMAP.md): ideas that are not implemented.
+- [PROJECT-STATUS.md](PROJECT-STATUS.md): concise current status.
+- [DOCUMENTATION-INVENTORY.md](DOCUMENTATION-INVENTORY.md): retained and
+  historical Markdown inventory.
+
+The upstream CleanYourTV documentation in `docs/` and `themes/README.md`
+continues to describe the launcher and its full supported schema. The
+Luffy-specific documents above add device-tested information without replacing
+upstream guidance.
+
 ## Start here
 
 | You have | Go to |

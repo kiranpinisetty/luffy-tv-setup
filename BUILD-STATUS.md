@@ -1,53 +1,29 @@
-# Luffy Gear 5 theme build status
+# Luffy Gear 5 build status
 
-## Status
+The local CleanYourTV release APK and deployable theme were prepared and
+tested on 2026-10-30. See [PROJECT-STATUS.md](PROJECT-STATUS.md) for the
+authoritative current state and [DEVELOPMENT.md](DEVELOPMENT.md) for commands.
 
-The external theme package is prepared locally. No launcher APK was built,
-and no TV connection, ADB command, theme push, or installation was performed.
+## Local artifacts
 
-## Deployable package
+- Theme source: `themes/luffy-gear5/`
+- Deployable theme: `themes/luffy-gear5-deployable/`
+- Theme archive: `luffy-gear5-theme.zip`
+- APK candidate: `themes/luffy-gear5-deployable/cleanyourtv-release.apk`
+- APK package: `com.gathin.tvhome`, version `3.1`, version code `10`
+- APK build: release, JDK 17, compile/target SDK 34, min SDK 26
 
-Directory:
+The APK is signed with the Android debug certificate and is an installation
+candidate, not a production distribution artifact.
 
-`themes/luffy-gear5-deployable/`
+## Current theme
 
-Contents:
+- Four verified dock packages in order: YouTube, Netflix, Prime Video,
+  JioHotstar
+- `fill_dock: false`, leaving slots 5 and 6 empty
+- Six columns, glass dock, dark background, wallpaper enabled
+- `power_on_home_always: true` is present locally but has not been transferred
+  since the latest configuration change
 
-- `config.json`
-- `wallpapers/luffy-gear5.jpg`
-
-The package uses CleanYourTV's supported wallpaper collection mechanism. The
-configuration keeps the dock package list empty until the target TV is
-inventoried, so no package names have been guessed.
-
-## Wallpaper
-
-The supplied original remains unchanged at:
-
-`themes/wallpaper.png`
-
-The deployable package contains a local JPEG derivative at 1672x941 pixels,
-approximately 366 KB, created to reduce transfer and decode cost. The original
-PNG was preserved and is not included in the deployable package.
-
-## Theme behavior
-
-- Six-column dock
-- Empty dock slots (`dock_apps: []`, `fill_dock: false`)
-- Glass dock at 70% opacity
-- Dark background
-- Static wallpaper collection with a 1440-minute interval
-- Wallpaper dimming at 18%
-- Animations and advanced effects enabled
-- Direct focus movement
-- Existing ambient and app glow enabled
-- White clock/date presentation
-
-## Remaining TV-dependent items
-
-- Verify current firmware and launcher compatibility.
-- Identify actual YouTube, Netflix, Prime Video, and JioHotstar package names
-  and launchable TV activities.
-- Review wallpaper crop, contrast, startup time, memory use, and focus
-  responsiveness on the 2 GB TV.
-- Apply the package only after explicit device approval and recovery checks.
+This file is retained as a short build record; detailed status belongs in
+[PROJECT-STATUS.md](PROJECT-STATUS.md).

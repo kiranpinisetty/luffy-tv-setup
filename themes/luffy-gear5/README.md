@@ -1,5 +1,11 @@
 # Luffy Gear 5 theme draft
 
+> **Historical draft note:** This file describes the pre-inventory design
+> draft. The verified current state is in the workspace
+> [PROJECT-STATUS.md](../../PROJECT-STATUS.md). The target was later verified
+> as `MiTV-AXSO0`; the theme was built, installed, and transferred during
+> subsequent work.
+
 This is a local, uninstalled draft for a One Piece / Monkey D. Luffy-themed
 CleanYourTV home screen targeting a Xiaomi Mi TV X 65-inch Android TV. The
 exact model identifier and firmware remain unverified. It is intentionally

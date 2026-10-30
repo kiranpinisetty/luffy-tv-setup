@@ -1,5 +1,9 @@
 # Phase 3A compatibility report: Xiaomi Mi TV 4X 65
 
+> **Historical planning report:** This report predates the verified inventory
+> and later deployment. It is retained for phase history. See
+> [PROJECT-STATUS.md](../../PROJECT-STATUS.md) for current facts.
+
 Status: planning only. No TV connection, ADB session, installation, package
 change or launcher change has occurred.
 

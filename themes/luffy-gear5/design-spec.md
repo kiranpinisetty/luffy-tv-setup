@@ -1,5 +1,10 @@
 # Luffy Gear 5 design specification
 
+> **Historical design record:** The status and device claims below describe
+> the pre-inventory phase. See [PROJECT-STATUS.md](../../PROJECT-STATUS.md)
+> for verified current state and [ROADMAP.md](../../ROADMAP.md) for features
+> that remain unimplemented.
+
 Status: local design specification only. No TV compatibility or installation
 work has started.
 
